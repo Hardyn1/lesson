@@ -1,0 +1,141 @@
+body {
+  font-family: Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1345px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.fdesign {
+  margin: 73px 190px;
+}
+.header {
+  text-align: center;
+}
+
+h1 {
+  color: #000;
+  font-family: tahoma;
+  font-size: 57px;
+}
+
+.header p {
+  color: #000;
+  font-size: 16px;
+  margin-top: 35px;
+  margin-bottom: 95px;
+}
+
+.offer {
+  color: #000;
+  font-size: 18px;
+  margin-right: 35px;
+  text-decoration: none;
+}
+
+.elements {
+  margin-bottom: 222px;
+}
+
+.elements a {
+  padding: 22px 44px;
+  background-color: #f4c32f;
+  border-radius: 5px;
+  width: 246px;
+  height: 66px;
+}
+/* ul li по деволту есть падинги */
+.services {
+  text-align: center;
+  background-color: #efefef;
+}
+
+h2 {
+  padding: 110px;
+  font-size: 38px;
+}
+
+.info {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  row-gap: 62px;
+}
+
+li {
+  max-width: 367px;
+  width: 100%;
+  list-style: none;
+}
+
+.fb {
+  color: #275fe0;
+  font-weight: bold;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+  padding-bottom: 102px;
+}
+
+.section-main {
+  justify-content: space-between;
+  display: flex;
+}
+
+h3 {
+  margin-top: 123px;
+  text-align: center;
+  font-size: 38px;
+}
+
+.section-main p {
+  margin: 0;
+  margin-bottom: 66px;
+}
+
+.section-main span {
+  color: rgba(0, 0, 0, 0.48);
+  font-size: 31px;
+  padding: 20px;
+}
+
+.section-inner {
+  display: flex;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.section-main p {
+  color: rgba(0, 0, 0, 0.76);
+}
+
+.section-footer {
+  background: #efefef;
+  color: #00000078;
+}
+
+.footer-main {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-design {
+  margin: 0px;
+  padding-top: 80px;
+  font-size: 13px;
+}
