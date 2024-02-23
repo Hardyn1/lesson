@@ -3,6 +3,7 @@
 }
 .header {
   text-align: center;
+  padding: 64px 0 195px;
 }
 
 h1 {
@@ -25,10 +26,6 @@ h1 {
   text-decoration: none;
 }
 
-.elements {
-  margin-bottom: 222px;
-}
-
 .elements a {
   box-sizing: border-box;
   padding: 22px 44px;
@@ -39,12 +36,13 @@ h1 {
 }
 /* ul li по деволту есть падинги */
 .services {
+  padding: 108px 0 82px;
   text-align: center;
   background-color: #efefef;
 }
 
 h2 {
-  padding: 110px;
+  margin-bottom: 110px;
   font-size: 38px;
 }
 
@@ -71,6 +69,9 @@ li {
   padding-top: 32px;
   padding-bottom: 102px;
 }
+.class-section {
+  padding: 104px 0 135px;
+}
 
 .section-main {
   justify-content: space-between;
@@ -78,7 +79,6 @@ li {
 }
 
 h3 {
-  margin-top: 123px;
   text-align: center;
   font-size: 38px;
 }
@@ -107,6 +107,7 @@ h4 {
 }
 
 .section-footer {
+  padding: 74px 0 34px;
   background: #efefef;
   color: #00000078;
 }
@@ -145,6 +146,10 @@ h4 {
   .header p {
     font-size: 13px;
   }
+
+  h3 {
+    font-size: 33px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -167,9 +172,13 @@ h4 {
   }
 
   .header p {
-    font-size: 15px;
+    font-size: 10px;
   }
   .offer {
     margin-right: 0px;
+  }
+
+  h3 {
+    font-size: 23px;
   }
 }
