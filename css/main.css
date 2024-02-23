@@ -1,5 +1,5 @@
 .fdesign {
-  margin: 73px 190px;
+  margin: 73px 0;
 }
 .header {
   text-align: center;
@@ -30,6 +30,7 @@ h1 {
 }
 
 .elements a {
+  box-sizing: border-box;
   padding: 22px 44px;
   background-color: #f4c32f;
   border-radius: 5px;
@@ -113,12 +114,12 @@ h4 {
 .footer-main {
   margin: 0px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .footer-design {
   margin: 0px;
-  padding-top: 80px;
+  margin-top: 80px;
   font-size: 13px;
 }
 
@@ -149,5 +150,26 @@ h4 {
 @media screen and (max-width: 576px) {
   .footer-main {
     flex-direction: column;
+    align-items: center;
+  }
+  .elements {
+    flex-direction: column;
+    display: flex;
+    gap: 25px;
+    width: 35%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .header p {
+    font-size: 15px;
+  }
+  .offer {
+    margin-right: 0px;
   }
 }
